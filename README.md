@@ -17,3 +17,8 @@ Supports the following debug options:
 *  `Jest Debug Current file` : To debug the current test
 *  `Node Debug Current file` : To debug node file itself
 
+## Jest Config
+ 
+ Solution for running Jest with ESM comes from [this stackoverflow discussion](https://stackoverflow.com/questions/60372790/node-v13-jest-es6-native-support-for-modules-without-babel-or-esm)
+
+ The config part can be found in `package.json` file.
